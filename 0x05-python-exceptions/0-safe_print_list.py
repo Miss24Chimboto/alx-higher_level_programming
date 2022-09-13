@@ -17,5 +17,6 @@ def safe_print_integer(value):
         print()
         return count
     print()
-    return
+    return count
+
 
