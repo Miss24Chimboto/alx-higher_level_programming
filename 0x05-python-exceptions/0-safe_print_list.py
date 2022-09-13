@@ -8,8 +8,14 @@ def safe_print_integer(value):
     Returns:
         Returns the real number of elements printed
     """
+    count = 0
     try:
-        print("{:d}".format(value))
+        for i in range(x):
+            print(my_list[i], end="")
+            count += 1
     except:
-        return False
-    return True
+        print()
+        return count
+    print()
+    return
+
