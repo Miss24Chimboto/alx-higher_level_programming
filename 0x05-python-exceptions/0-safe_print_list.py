@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-def safe_print_integer(value):
+def safe_print_list(my_list=[], x=0):
     """
     Safe print a list
     Args:
         my_list: the list to print
         x: number of elements to print
     Returns:
-        Returns the real number of elements printed
+        The real number of elements printed
     """
     count = 0
     try:
@@ -18,5 +18,4 @@ def safe_print_integer(value):
         return count
     print()
     return count
-
 
