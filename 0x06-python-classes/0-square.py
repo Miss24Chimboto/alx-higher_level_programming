@@ -2,5 +2,5 @@
 """Creating an empty class"""
 
 class Square:
-    """The class name is Square and it will be the one which is empty"""
+    """The class name is Square and it will be empty"""
     pass
